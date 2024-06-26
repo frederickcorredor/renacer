@@ -1,0 +1,239 @@
+.color-primario{
+    color: #E26722;
+}
+
+.color-secundario{
+   color: #EE7425;
+}
+
+.gris{
+    color: #727170;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+header{
+    color: white;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 50px;
+    
+}
+
+nav ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgba(34, 33, 33, 0.815);
+    color: white;
+    padding: 12px;
+position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 900;
+
+    a{
+        margin: 16px;
+        text-decoration: none;
+    }
+
+   
+
+    li{
+        text-decoration: none;
+        list-style: none;
+    }
+}
+
+
+.barra ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+main{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Textura\ Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.container-largo{
+    width: 100%;
+    margin: 12px 0px;
+    padding: 16px;
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+
+        p{
+            max-width: 800px;
+            color: white;
+        }
+        h1{
+            max-width: 800px;
+        }
+}
+
+h1{
+    margin: 29px;
+    font-size: 54px;
+    color: white;
+}
+
+.container-corto{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 3.25%,  #ffffff4d 96.75%);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(67px);
+    padding: 26px;
+    border-radius: 36px;
+    max-width: 1150px;
+}
+
+.fondo-negro{
+   background-color: #000000;
+    border-radius: 26px;
+    padding: 16px;
+    border: 1px white solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    min-height: 290px;
+
+    p{
+        font-size: 19px;
+        
+    }
+}
+
+.barra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    color: white;
+    margin: 0px 4px;
+    padding: 6px 12px;
+
+        li{
+            margin:35px 12px;
+            width: 250px;
+            text-align: center;
+        }
+
+        a{
+            padding: 12px;
+            margin: 21px 12px;
+            display: block;
+            width: 250px;
+            text-align: center;
+        }
+}
+
+.interior{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-pequeno{
+    background-color: rgba(185, 186, 187, 0.466);
+    border: 1px white solid;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    margin: 12px;
+    border-radius: 24px;
+}
+
+
+
+.boton-primario{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 3.25%,  #ffffff4d 96.75%);
+    border: 1px #E26722 solid;
+    padding: 12px 46px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #E26722;
+
+}
+
+
+.botones{
+    margin-top: 24px;
+    padding: 16px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-secundario{
+    padding: 6px 18px;
+    color: white;
+    font-size: 21px;
+}
+
+.contenedor-equipo{
+    min-height: 50vh;
+    border: 1px solid white;
+    margin-top: 12px;
+    width: 65%;
+    margin: 18px;
+}
+
+.tarjeta{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 3.25%,  #ffffff4d 96.75%);
+    border: 1px #E26722 solid;
+    margin: 16px;
+    padding: 16px;
+    width: 22%;
+    border-radius: 16px;
+    text-align: left;
+    font-size: 16px;
+
+    h2{
+        margin-bottom: 12px;
+        color:  #EE7425;
+    }
+
+    p{
+        color: white;
+    }
+}
