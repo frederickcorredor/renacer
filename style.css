@@ -124,15 +124,92 @@ h1{
     border: 1px white solid;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     color: white;
-    min-height: 290px;
+    min-height: 494px;
 
     p{
         font-size: 19px;
         
     }
+}
+
+.tarjeta{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 3.25%,  #ffffff4d 96.75%);
+    border: 1px #E26722 solid;
+    margin: 16px;
+    padding: 16px;
+    width: 30%;
+    min-width: 300px;
+    border-radius: 16px;
+    text-align: left;
+    font-size: 16px;
+    min-height: 500px;
+    -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    h2{
+        color:  #EE7425;
+        width: 100%;
+  
+    }
+
+
+    p{
+        color: white;
+    }
+
+}
+
+.des-corta{
+    margin-top: 24px;
+    width: 100%;
+
+}
+
+.avatar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flechita{
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 20px;
+}
+
+.flechita2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    a{
+        color: #E26722;
+    }
+}
+
+#adrian2{
+    display: none;
+    -webkit-animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#david2{
+    display: none;
+    -webkit-animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#fred2{
+    display: none;
+    -webkit-animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .barra{
@@ -218,22 +295,52 @@ h1{
     margin: 18px;
 }
 
-.tarjeta{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 3.25%,  #ffffff4d 96.75%);
-    border: 1px #E26722 solid;
-    margin: 16px;
-    padding: 16px;
-    width: 22%;
-    border-radius: 16px;
-    text-align: left;
-    font-size: 16px;
-
-    h2{
-        margin-bottom: 12px;
-        color:  #EE7425;
+@-webkit-keyframes flip-in-ver-left {
+    0% {
+      -webkit-transform: rotateY(80deg);
+              transform: rotateY(80deg);
+      opacity: 0;
     }
-
-    p{
-        color: white;
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
     }
-}
+  }
+  @keyframes flip-in-ver-left {
+    0% {
+      -webkit-transform: rotateY(80deg);
+              transform: rotateY(80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes flip-in-ver-right {
+    0% {
+      -webkit-transform: rotateY(-80deg);
+              transform: rotateY(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-in-ver-right {
+    0% {
+      -webkit-transform: rotateY(-80deg);
+              transform: rotateY(-80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+  }
