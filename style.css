@@ -18,6 +18,20 @@
     font-weight: 600;
 }
 
+.neon{
+	text-shadow:
+		text-shadow:
+		0 0 5px #e26822c0,
+		0 0 10px #e26822c0,
+		0 0 20px#e26822c0,
+		0 0 40px #e268225a,
+		0 0 80px #e268225a,
+		0 0 90px #e268225a,
+		0 0 100px #e268225a,
+		0 0 140px #e268225a,
+		0 0 180px #e268225a;
+}
+
 body{
     background-color: #000000;
     background-size: cover;
